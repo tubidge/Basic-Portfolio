@@ -1,0 +1,37 @@
+body {
+    background-image: url("../images/mosaic-background.png");
+    width: 
+  }
+
+  #headerbox {
+      background: #ffffff;
+      width: 640px;
+      float: left;
+      margin: 0 auto;
+  }
+
+  header {
+      background: #4aaaa5;
+      font-size: 24px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #ffffff;
+      width: 200px;
+      height: 70px;
+      text-align: center;
+    
+  }
+
+  #headerlink {
+      background: grey;
+      width: 300px;
+      float: left;
+  }
+
+
+  section {
+      background: #ffffff;
+      width: 960px;
+      clear: both;
+      margin: 0 auto;
+      
+  }
