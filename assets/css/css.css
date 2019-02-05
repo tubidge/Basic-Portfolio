@@ -28,7 +28,6 @@ body {
       /* height: 70px; */
       text-align: center;
       padding: 20px;
-    
   }
 
   #headerlink {
@@ -36,7 +35,7 @@ body {
       background: #ffffff;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 14px;
-      color: #777777;
+      color: #cccccc;
       /* border-style: solid;
       border-width: 5px; */
       width: 320px;
@@ -45,12 +44,24 @@ body {
       text-align: right;
   }
 
+  a:link {
+      color: #777777;
+      text-decoration: none;
+  }
 
+  a:visited {
+      color: #777777;
+      text-decoration: none;
+  }
   section {
       background: #ffffff;
       width: 960px;
       clear: both;
       margin: 0 auto;
+      margin-top: 40px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #dddddd;
       position: relative;
       /* overflow: hidden; */      
   }
@@ -70,6 +81,7 @@ body {
       color: #4aaaa5;
       font-family: Georgia, 'Times New Roman', Times, serif;
       padding: 20px 20px 0px 20px;
+      margin-left: 4px;
   }
 
   #linebreak {
@@ -95,10 +107,11 @@ body {
   footer {
       background: #666666;
       font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
       color: #ffffff;
       text-align: center;
       /* height: 30px; */
-      padding: 37px 20px 3px 20px;
+      padding: 35px 20px 5px 20px;
       border-width: 10px 0px 0px 0px;
       border-style: solid;
       border-color: #4aaaa5;
