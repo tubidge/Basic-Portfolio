@@ -1,30 +1,48 @@
 body {
-    background-image: url("../images/mosaic-background.png");
-    width: 
+    background-image: url("../images/white-waves.png");
+  }
+
+  #topbanner {
+      height: 70px;
+      background: #ffffff;
+      border-style: solid;
+      border-width: 0px 0px 1px 0px;
+      border-color: #cccccc;
+      /* need to add bottom border */
   }
 
   #headerbox {
       background: #ffffff;
-      width: 640px;
-      float: left;
-      margin: 0 auto;
+      width: 960px;
+      /* float: left; */
+      margin: auto;
+
   }
 
   header {
+      float: left;
       background: #4aaaa5;
-      font-size: 24px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 26px;
       color: #ffffff;
-      width: 200px;
-      height: 70px;
+      width: 160px;
+      /* height: 70px; */
       text-align: center;
+      padding: 20px;
     
   }
 
   #headerlink {
-      background: grey;
-      width: 300px;
-      float: left;
+      float: right;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #777777;
+      /* border-style: solid;
+      border-width: 5px; */
+      width: 320px;
+      /* height: 70px; */
+      padding: 27px 0px 27px 20px;
+      text-align: right;
   }
 
 
@@ -33,5 +51,55 @@ body {
       width: 960px;
       clear: both;
       margin: 0 auto;
-      
+      position: relative;
+      /* overflow: hidden; */      
+  }
+
+  #summary {
+      width: 95%;
+      margin: 0 auto;
+  }
+
+  #profile_pic {
+      /* margin-left: 20px; */
+      margin-right: 15px;
+      float: left;
+  }
+
+  h1 {
+      color: #4aaaa5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 20px 20px 0px 20px;
+  }
+
+  #linebreak {
+      height: 1px;
+      width: 95%;
+      background: #cccccc;
+      margin: 0 auto;
+  }
+
+  p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #777777;
+      line-height: 160%;
+  }
+
+  #p1 {
+      /* float: left;
+      position: relative;
+      left: 200px; */
+      margin-top: 20px;
+  }
+
+  footer {
+      background: #666666;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      text-align: center;
+      /* height: 30px; */
+      padding: 37px 20px 3px 20px;
+      border-width: 10px 0px 0px 0px;
+      border-style: solid;
+      border-color: #4aaaa5;
   }
