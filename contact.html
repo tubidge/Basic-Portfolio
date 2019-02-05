@@ -10,33 +10,39 @@
 
 <body>
     
-    <div id="headerbox">
+    <div id="topbanner">
+    
+
+        <div id="headerbox">
 
             <header>
-                Philip Benson
+                <strong>Philip Benson</strong>
             </header>
-    
+        
             <div id="headerlink">
                 <!-- site links -->
-                <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+                <a href="index.html">About</a> &nbsp; | &nbsp; <a href="portfolio.html">Portfolio</a> &nbsp; | &nbsp; <a href="contact.html">Contact</a>
             </div>
+        </div>
     </div>
 
     <section>
 
         <h1>Contact</h1>
 
-        <form>
+        <div id="linebreak"></div>
+
+        <form id="form">
             Name <br>
-            <input type="text" name="name"> <br>
+            <input id="name_input" type="text" name="name"> <br>
 
             Email <br>
-            <input type="text" name="email"> <br>
+            <input id="email_input" type="text" name="email"> <br>
 
             Message <br>
-            <input type="text" name="message"> <br>
+            <input id="message_input" type="text" name="message"> <br>
 
-            <input type="submit" value="Submit">
+            <input id="submit" type="submit" value="Submit">
         </form>
     </section>
 
