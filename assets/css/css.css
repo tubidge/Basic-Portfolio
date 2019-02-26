@@ -267,7 +267,7 @@ body {
       font-size: 14px;
       color: #777777;
       border: 1px solid #cccccc;
-      width: 95%;
+      width: 95% !important;
       padding: 6px 10px 6px 10px;
   }
 
