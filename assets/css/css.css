@@ -53,12 +53,12 @@ header {
 
 a:link {
     color: #777777;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 a:visited {
     color: #777777;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 h1 {
@@ -143,6 +143,10 @@ p {
     border: none;
 }
 
+#proj_text {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
 
 #topleft {
     position: relative;
@@ -152,12 +156,14 @@ p {
     margin: 0 0 15px 0;
 }
 
+
 #topleft_text {
     position: absolute;
     bottom: 8px;
     /* z-index: 10; */
     color: #ffffff;
     background-color: #4aaaa5;
+    text-decoration: none;
     width: 100%;
     height: 35px;
     text-align: center;
